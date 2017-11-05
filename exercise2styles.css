@@ -28,6 +28,7 @@ body {
 	font-weight: 100;	
 }
 
+/* Two-column website */
 #col1 {
 	width: 48%;
 	float: left;
@@ -38,16 +39,19 @@ body {
 	float: right;
 }
 
+/* Content box */
 .box {
 	border: 1px solid black;
 	padding: 20px;
 }
 
+/* Achieves margins on both sides of content  */
 #wrapper {
 	width: 80%;
 	margin-left: 10%;
 }
 
+/* Hamburger menu that shows up for mobile version */
 #hamburger {
 	display: none;
 	float: right;
@@ -62,6 +66,7 @@ body {
     margin: 6px 0;
 }
 
+/* Styles for mobile */
 @media screen and (max-width: 600px) {
     #col1, #col2 {
         float: left;
